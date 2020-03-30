@@ -166,10 +166,10 @@
 <hole x="93.98" y="5.08" drill="3.175"/>
 <hole x="5.08" y="43.18" drill="3.175"/>
 <hole x="5.08" y="5.08" drill="3.175"/>
-<wire x1="12.7" y1="45.72" x2="78.74" y2="45.72" width="0.8128" layer="22"/>
-<wire x1="78.74" y1="43.18" x2="12.7" y2="43.18" width="0.8128" layer="22"/>
-<wire x1="78.74" y1="5.08" x2="12.7" y2="5.08" width="0.8128" layer="22"/>
-<wire x1="78.74" y1="2.54" x2="12.7" y2="2.54" width="0.8128" layer="22"/>
+<wire x1="12.7" y1="45.72" x2="86.36" y2="45.72" width="0.8128" layer="22"/>
+<wire x1="86.36" y1="43.18" x2="12.7" y2="43.18" width="0.8128" layer="22"/>
+<wire x1="86.36" y1="5.08" x2="12.7" y2="5.08" width="0.8128" layer="22"/>
+<wire x1="86.36" y1="2.54" x2="12.7" y2="2.54" width="0.8128" layer="22"/>
 <wire x1="96.52" y1="35.56" x2="96.52" y2="27.94" width="0.8128" layer="22"/>
 <wire x1="93.98" y1="35.56" x2="93.98" y2="27.94" width="0.8128" layer="22"/>
 <wire x1="91.44" y1="35.56" x2="91.44" y2="27.94" width="0.8128" layer="22"/>
@@ -958,25 +958,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="J50" library="SparkFun-Connectors" package="1X05" value="" x="86.36" y="27.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="88.392" y="26.67" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J51" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="2.54" y="-2.54" smashed="yes">
-<attribute name="NAME" x="1.27" y="-1.143" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="XXX-00000" x="2.54" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.27" y="-4.572" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J51" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="81.28" y="5.08" smashed="yes">
+<attribute name="PROD_ID" value="XXX-00000" x="81.28" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J52" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="2.54" y="-7.62" smashed="yes">
-<attribute name="NAME" x="1.27" y="-6.223" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="XXX-00000" x="2.54" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.27" y="-9.652" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J52" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="81.28" y="2.54" smashed="yes">
+<attribute name="PROD_ID" value="XXX-00000" x="81.28" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J53" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="2.54" y="-12.7" smashed="yes">
-<attribute name="NAME" x="1.27" y="-11.303" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="XXX-00000" x="2.54" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.27" y="-14.732" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J53" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="81.28" y="45.72" smashed="yes">
+<attribute name="PROD_ID" value="XXX-00000" x="81.28" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J54" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="2.54" y="-17.78" smashed="yes">
-<attribute name="NAME" x="1.27" y="-16.383" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="XXX-00000" x="2.54" y="-17.78" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.27" y="-19.812" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J54" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="81.28" y="43.18" smashed="yes">
+<attribute name="PROD_ID" value="XXX-00000" x="81.28" y="43.18" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1037,9 +1029,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J52" pad="3"/>
 <contactref element="J52" pad="2"/>
 <contactref element="J52" pad="1"/>
-<wire x1="7.62" y1="-7.62" x2="12.7" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="2.54" x2="81.28" y2="2.54" width="0.8128" layer="16"/>
+<wire x1="81.28" y1="2.54" x2="83.82" y2="2.54" width="0.8128" layer="16"/>
+<wire x1="83.82" y1="2.54" x2="86.36" y2="2.54" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="J9" pad="1"/>
@@ -1098,9 +1090,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J51" pad="3"/>
 <contactref element="J51" pad="2"/>
 <contactref element="J51" pad="1"/>
-<wire x1="7.62" y1="-2.54" x2="12.7" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="5.08" x2="81.28" y2="5.08" width="0.8128" layer="16"/>
+<wire x1="81.28" y1="5.08" x2="83.82" y2="5.08" width="0.8128" layer="16"/>
+<wire x1="83.82" y1="5.08" x2="86.36" y2="5.08" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="J16" pad="1"/>
@@ -1159,9 +1151,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J54" pad="1"/>
 <contactref element="J54" pad="2"/>
 <contactref element="J54" pad="3"/>
-<wire x1="7.62" y1="-17.78" x2="12.7" y2="43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="-17.78" x2="7.62" y2="-17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-17.78" x2="5.08" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="43.18" x2="81.28" y2="43.18" width="0.8128" layer="16"/>
+<wire x1="81.28" y1="43.18" x2="83.82" y2="43.18" width="0.8128" layer="16"/>
+<wire x1="83.82" y1="43.18" x2="86.36" y2="43.18" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="J23" pad="1"/>
@@ -1220,9 +1212,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J53" pad="1"/>
 <contactref element="J53" pad="2"/>
 <contactref element="J53" pad="3"/>
-<wire x1="7.62" y1="-12.7" x2="12.7" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="-12.7" x2="7.62" y2="-12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="45.72" x2="81.28" y2="45.72" width="0.8128" layer="16"/>
+<wire x1="81.28" y1="45.72" x2="83.82" y2="45.72" width="0.8128" layer="16"/>
+<wire x1="83.82" y1="45.72" x2="86.36" y2="45.72" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="J61" pad="5"/>

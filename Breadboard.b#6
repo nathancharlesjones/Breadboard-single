@@ -265,6 +265,9 @@
 <text x="62.23" y="22.86" size="1.778" layer="22" rot="MR90">25</text>
 <text x="74.93" y="22.86" size="1.778" layer="22" rot="MR90">30</text>
 <text x="87.63" y="22.86" size="1.778" layer="22" rot="MR90">35</text>
+<wire x1="81.28" y1="20.32" x2="81.28" y2="10.16" width="0.8128" layer="22"/>
+<wire x1="83.82" y1="10.16" x2="83.82" y2="20.32" width="0.8128" layer="22"/>
+<wire x1="86.36" y1="20.32" x2="86.36" y2="10.16" width="0.8128" layer="22"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1871,10 +1874,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J45" pad="1"/>
 <contactref element="J45" pad="5"/>
 <contactref element="J45" pad="4"/>
-<wire x1="81.28" y1="17.78" x2="81.28" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="81.28" y1="15.24" x2="81.28" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="81.28" y1="12.7" x2="81.28" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="81.28" y1="10.16" x2="81.28" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="10.16" x2="81.28" y2="12.7" width="0.8128" layer="16"/>
+<wire x1="81.28" y1="12.7" x2="81.28" y2="15.24" width="0.8128" layer="16"/>
+<wire x1="81.28" y1="15.24" x2="81.28" y2="17.78" width="0.8128" layer="16"/>
+<wire x1="81.28" y1="17.78" x2="81.28" y2="20.32" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$77">
 <contactref element="J46" pad="5"/>
@@ -1882,10 +1885,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J46" pad="3"/>
 <contactref element="J46" pad="2"/>
 <contactref element="J46" pad="1"/>
-<wire x1="83.82" y1="17.78" x2="83.82" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="15.24" x2="83.82" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="12.7" x2="83.82" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="10.16" x2="83.82" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="20.32" x2="83.82" y2="17.78" width="0.8128" layer="16"/>
+<wire x1="83.82" y1="17.78" x2="83.82" y2="15.24" width="0.8128" layer="16"/>
+<wire x1="83.82" y1="15.24" x2="83.82" y2="12.7" width="0.8128" layer="16"/>
+<wire x1="83.82" y1="12.7" x2="83.82" y2="10.16" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$78">
 <contactref element="J47" pad="5"/>
@@ -1893,10 +1896,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J47" pad="3"/>
 <contactref element="J47" pad="2"/>
 <contactref element="J47" pad="1"/>
-<wire x1="86.36" y1="12.7" x2="86.36" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="86.36" y1="15.24" x2="86.36" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="86.36" y1="17.78" x2="86.36" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="86.36" y1="20.32" x2="86.36" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="10.16" x2="86.36" y2="12.7" width="0.8128" layer="16"/>
+<wire x1="86.36" y1="12.7" x2="86.36" y2="15.24" width="0.8128" layer="16"/>
+<wire x1="86.36" y1="15.24" x2="86.36" y2="17.78" width="0.8128" layer="16"/>
+<wire x1="86.36" y1="17.78" x2="86.36" y2="20.32" width="0.8128" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

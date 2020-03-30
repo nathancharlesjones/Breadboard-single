@@ -251,10 +251,10 @@
 <text x="10.16" y="21.59" size="1.27" layer="26" rot="MR0">TRACES
   THIS
   SIDE</text>
-<text x="11.43" y="40.64" size="1.27" layer="25">Max current through any trace (based on width): 3.5A (temperature rise: 35 deg C)</text>
-<text x="11.43" y="39.37" size="1.27" layer="25">Max voltage between any two traces (based on clearance): 100V (70 V_AC RMS)</text>
-<text x="8.89" y="7.62" size="1.27" layer="25">For more information: github.com/nathancharlesjones/Embedded-for-Everyone/wiki</text>
-<text x="86.36" y="21.59" size="1.27" layer="26" rot="MR0">TRACES
+<text x="13.97" y="40.64" size="1.27" layer="25">Max current through any trace (based on width): 3.5A (temperature rise: 35 deg C)</text>
+<text x="13.97" y="39.37" size="1.27" layer="25">Max voltage between any two traces (based on clearance): 100V (70 V_AC RMS)</text>
+<text x="12.7" y="7.62" size="1.27" layer="25">For more information: github.com/nathancharlesjones/Embedded-for-Everyone/wiki</text>
+<text x="97.79" y="21.59" size="1.27" layer="26" rot="MR0">TRACES
   THIS
   SIDE</text>
 <text x="1.27" y="22.86" size="1.778" layer="22" rot="MR90">1</text>
